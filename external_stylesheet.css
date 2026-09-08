@@ -1,0 +1,92 @@
+/*
+Colors:
+Dark Blue: #0b1f33
+Blue: #12395b
+Gold: #c89b3c
+Light Gold: #f0e6d2
+White: #ffffff
+*/
+
+/* Styles the whole page */
+body {
+    background-color: #0b1f33;
+    color: #f0e6d2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Styles the header */
+header {
+    background-color: #12395b;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles the main title */
+header h1 {
+    color: #c89b3c;
+}
+
+/* Styles the subtitle */
+.subtitle {
+    color: #ffffff;
+}
+
+/* Styles the nav section */
+nav {
+    background-color: #c89b3c;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styles the nav links */
+nav a {
+    color: #0b1f33;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styles the main content area */
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Styles the headings */
+h2 {
+    color: #c89b3c;
+}
+
+/* Styles the about section */
+.about_sec {
+    background-color: #12395b;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styles the paragraphs in about section */
+.about_sec p {
+    color: #f0e6d2;
+    line-height: 1.5;
+}
+
+/* Styles the tracker section */
+.tracker_section {
+    background-color: #12395b;
+    padding: 20px;
+}
+
+/* Styles the list */
+.tracker_section li {
+    color: #ffffff;
+    margin: 5px;
+}
+
+/* Styles the footer */
+footer {
+    text-align: center;
+    color: #f0e6d2;
+    margin-top: 20px;
+}

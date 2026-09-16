@@ -1,0 +1,131 @@
+/*
+League-inspired Color Palette
+
+Dark Blue: #0b1f33
+Blue: #12395b
+Gold: #c89b3c
+Light Gold: #f0e6d2
+White: #ffffff
+Win Blue: #214f78
+Loss Red: #6b2b2b
+*/
+
+/* Whole page */
+body {
+    margin: 0;
+    background-color: #0b1f33;
+    color: #f0e6d2;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.top_header {
+    background-color: #12395b;
+    text-align: center;
+    padding: 20px;
+}
+
+.top_header h1 {
+    color: #c89b3c;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #ffffff;
+}
+
+/* Navigation */
+.top_nav {
+    background-color: #c89b3c;
+    text-align: center;
+    padding: 10px;
+}
+
+.top_nav a {
+    color: #0b1f33;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main layout */
+.page_layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    width: 90%;
+    margin: 25px auto;
+}
+
+/* Left column */
+.left_column {
+    width: 30%;
+}
+
+/* Right column */
+.right_column {
+    width: 70%;
+}
+
+/* Reusable box style */
+.card {
+    background-color: #12395b;
+    border: 3px solid #c89b3c;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+.card h2 {
+    color: #c89b3c;
+    margin-top: 0;
+}
+
+/* Player profile box */
+.profile_card p {
+    border-bottom: 1px solid #f0e6d2;
+    padding-bottom: 8px;
+}
+
+/* Top champions box */
+.champion_row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0e6d2;
+}
+
+/* Match history area */
+.match_history {
+    min-height: 500px;
+}
+
+/* Individual match rows */
+.match {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    margin-top: 12px;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #c89b3c;
+}
+
+/* Winning match */
+.win {
+    background-color: #214f78;
+}
+
+/* Losing match */
+.loss {
+    background-color: #6b2b2b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #f0e6d2;
+    padding: 20px;
+    margin-top: 20px;
+}

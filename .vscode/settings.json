@@ -1,0 +1,52 @@
+{
+    "explorerSort.rules": [
+        {
+            "name": "Auto-generated for **/frontend/**",
+            "pathPattern": "**/frontend/**",
+            "priorities": [
+                {
+                    "condition": "name === 'about.html'",
+                    "priority": 0,
+                    "referenceFile": "index.html",
+                    "offset": -1
+                }
+            ]
+        },
+        {
+            "name": "Auto-generated for **/backend/**",
+            "pathPattern": "**/backend/**",
+            "priorities": [
+                {
+                    "condition": "name === 'server.js'",
+                    "priority": 0,
+                    "referenceFile": "package-lock.json",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Auto-generated for **/*",
+            "pathPattern": "**/*",
+            "priorities": [
+                {
+                    "condition": "name === '.gitignore'",
+                    "priority": 0,
+                    "referenceFile": ".vscode",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "name": "Auto-generated for **/.vscode/**",
+            "pathPattern": "**/.vscode/**",
+            "priorities": [
+                {
+                    "condition": "name === '.gitignore'",
+                    "priority": 0,
+                    "referenceFile": "settings.json",
+                    "offset": -1
+                }
+            ]
+        }
+    ]
+}
